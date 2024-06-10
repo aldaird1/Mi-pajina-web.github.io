@@ -23,4 +23,20 @@ document.getElementById('show-textarea-button').addEventListener('click', functi
     document.body.appendChild(form);
     form.submit();
   });
+document.getElementById('facebook').addEventListener('click', redirigirFacebook);
+document.getElementById('github').addEventListener('click', redirigirGithub);
+document.getElementById('linkedin').addEventListener('click', redirigirLinkedin);
+
+function redirigirFacebook() {
+    window.location.href = 'https://www.facebook.com/';
+}
+
+function redirigirGithub() {
+    window.location.href = 'https://github.com/';
+}
+
+function redirigirLinkedin() {
+    window.location.href = 'https://www.linkedin.com/';
+}
+
   
